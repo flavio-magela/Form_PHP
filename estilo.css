@@ -1,0 +1,122 @@
+.formulario{
+    width: 100%;    
+    border:1px solid #ccc;    
+    background-color: transparent;
+    background: black;
+    color: white;    
+    background-image: linear-gradient( 111deg, black, darkgray 40%, darkgray 50%, black 100%, 
+    #000 21.57%, transparent 21.57%, transparent 100% );
+}
+.formulario_form{
+    width: 55%;    
+    center:center;
+    align-items: center;
+    border:1px solid #ccc;
+    padding: 30px 50px 75px;
+    background: white;
+    position:relative;
+    left:190px;
+    top:1px;
+}
+.formulario_div{
+    width: auto;
+    padding: 40px;
+    border:1px solid #ccc;
+    padding: 30px 50px 75px;
+    background: lightgray;
+}
+
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.barra{
+    width: auto;
+    max-height: 0px;
+    padding: 10px;
+    margin-bottom:20
+    border:1px solid #ccc;
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    background: black;   
+    
+}
+p { 
+    position:relative;
+    left:200px;      
+    margin-bottom: 1rem;
+}
+
+h1,h3 { 
+    position:relative;
+    left:240px;      
+    margin-bottom: 1rem;
+}
+
+.dadoscoletados{
+    position:relative;
+    left:10px;      
+    margin-bottom: 1rem;
+}
+
+footer{
+    position:relative;
+    align:center;
+    left:220px;      
+    margin-bottom: 1rem;
+
+}
+
+div{
+
+    top:10px;
+
+}
+.field{
+    width: 100%;
+    margin: 15px 0;}%;
+
+
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 1 auto;
+    text-align: center;
+    border-radius: 15px;
+}
